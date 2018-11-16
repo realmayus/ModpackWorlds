@@ -1,0 +1,30 @@
+name: ModpackWorlds
+author: MayusYT
+version: 1.0
+main: net.mayus.modpackworlds.ModpackWorlds
+commands:
+    island:
+        description: Every island command.
+        usage: /world <create>
+    is:
+        description: island alias
+        usage: /is
+    tpa:
+        description: Sends a teleport request to a given player
+        usage: /tpa <Player>
+    tpaccept:
+        description: Accepts a teleport request from a given player
+        usage: /tpaccept <Player>
+    tpdecline:
+        description: Declines a teleport request from a given player
+        usage: /tpdecline <Player>
+    spawn:
+        description: Sends you to the spawn.
+    setspawn:
+        description: Sets  the spawn.
+    acceptres:
+        description: Accepts a resident request.
+    declineres:
+        description: Declines a resident request.
+    reallydeleteworld:
+        description: Name says it all.
